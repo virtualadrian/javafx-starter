@@ -3,7 +3,7 @@ JavaFX Starter
 To run:
 mvn clean install
 
-After maven work jar will be created in
+After maven's work jar will be created in
 /build folder.
 
 ==========================================
@@ -15,3 +15,7 @@ Tested on:
 - Eclipse
 - IntelliJ IDEA
 - Netbeans
+
+==========================================
+
+Have fun!
