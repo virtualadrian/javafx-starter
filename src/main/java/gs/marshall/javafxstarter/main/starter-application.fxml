@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gs.marshall.javafxstarter.main.StarterController">
+   <top>
+      <Label fx:id="helloLabel" text="Hello world!" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <Button fx:id="helloButton" mnemonicParsing="false" onAction="#handleHelloButtonAction" text="Say Hello world JavaFX!" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
