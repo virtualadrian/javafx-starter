@@ -9,6 +9,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
+/**
+ * Controller for starter-application.fxml file.
+ */
 public class StarterController implements Initializable {
 
   @FXML
