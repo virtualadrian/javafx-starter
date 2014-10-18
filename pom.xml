@@ -24,7 +24,6 @@
 		</dependency>
 	</dependencies>
 
-	<!-- JavaFX build configuration is based on Adam Bien's "igniter" project -->
 	<build>
 		<defaultGoal>clean package</defaultGoal>
 		<plugins>
