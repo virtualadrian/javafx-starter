@@ -3,6 +3,9 @@ JavaFX Starter
 To run:
 mvn clean install
 
+After maven work jar will be created in
+/build folder.
+
 ==========================================
 
 JavaFX is in Java 8 classpath.
