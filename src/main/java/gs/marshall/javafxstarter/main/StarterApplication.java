@@ -21,6 +21,7 @@ public class StarterApplication extends Application {
     Pane pane = (Pane) FXMLLoader.load(getClass().getResource("starter-application.fxml"));
     Scene scene = new Scene(pane);
     primaryStage.setScene(scene);
+    
     primaryStage.show();
   }
 
