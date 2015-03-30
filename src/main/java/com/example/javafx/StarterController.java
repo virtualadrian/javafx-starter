@@ -1,4 +1,4 @@
-package gs.marshall.javafxstarter.main;
+package com.example.javafx;
 
 import java.net.URL;
 import java.util.ResourceBundle;

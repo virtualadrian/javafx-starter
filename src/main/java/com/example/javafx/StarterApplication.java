@@ -1,4 +1,4 @@
-package gs.marshall.javafxstarter.main;
+package com.example.javafx;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
