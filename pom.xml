@@ -12,7 +12,9 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<junit.version>4.11</junit.version>
+		<junit.version>4.12</junit.version>
+		<maven.dependency.plugin.version>2.10</maven.dependency.plugin.version>
+		<exec.maven.plugin.version>1.4.0</exec.maven.plugin.version>
 	</properties>
 
 	<dependencies>
@@ -29,7 +31,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.6</version>
+				<version>${maven.dependency.plugin.version}</version>
 				<executions>
 					<execution>
 						<id>unpack-dependencies</id>
@@ -48,7 +50,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.2.1</version>
+				<version>${exec.maven.plugin.version}</version>
 				<executions>
 					<execution>
 						<id>package-jar</id>
