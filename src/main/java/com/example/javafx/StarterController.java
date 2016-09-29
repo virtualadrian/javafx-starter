@@ -26,7 +26,7 @@ public class StarterController implements Initializable {
 
   @FXML
   protected void handleHelloButtonAction(ActionEvent event) {
-    helloLabel.setText("Hello World JavaFX!");
+    helloLabel.setText("Hello JavaFX!");
   }
   
 }
