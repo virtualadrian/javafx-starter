@@ -1,7 +1,6 @@
-##JavaFX Starter
+## JavaFX Starter project
 
-###To compile and generate runnable jar:
+### For compiling and generating runnable jar:
 `mvn clean package`
 
-After maven's work jar will be created in
-`/build` folder.
+### After maven's work runnable jar will be created in `/build` folder.
