@@ -14,6 +14,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.dependency.plugin.version>3.0.2</maven.dependency.plugin.version>
         <exec.maven.plugin.version>1.6.0</exec.maven.plugin.version>
+        <entryPointClassName>com.example.javafx.StarterApplication</entryPointClassName>
     </properties>
 
     <build>
@@ -54,7 +55,7 @@
                                 <argument>-createjar</argument>
                                 <argument>-nocss2bin</argument>
                                 <argument>-appclass</argument>
-                                <argument>com.example.javafx.StarterApplication</argument>
+                                <argument>${entryPointClassName}</argument>
                                 <argument>-srcdir</argument>
                                 <argument>${project.build.directory}/classes</argument>
                                 <argument>-outdir</argument>
